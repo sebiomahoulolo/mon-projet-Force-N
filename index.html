@@ -25,9 +25,6 @@
                     <a class="nav-link" href="#menu">Notre Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#offres">Offres Spéciales</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#reservation">Réservation</a>
                 </li>
                 <li class="nav-item">
@@ -240,8 +237,8 @@
             // Message de confirmation avec bouton "Fermer"
             var messageReservation = `
                 <div id="confirmationMessage" style="text-align: center;" >
-                    <h3 style="color: green;">Bienvenue ${nom} !</h3>
-                    <h3 style="color: green;">à Bio Jardin!</h3>
+                    <h3 style="color: green;">Bienvenue ${nom} </h3>
+                    <h3 style="color: green;">à Bio Jardin.</h3>
                     <p style="color: green; font-size: 20px;">Votre réservation est confirmée.</p>
                     <strong style="color: red;">Votre table numéro est : ${numeroTable}</strong></p>
                     <button id="closeBtn" class="btn btn-secondary mt-3">Fermer</button>
@@ -351,7 +348,7 @@
         </form>
       <section id="contact" class="container mt-5">
         <div class="alert alert-success alert-dismissible fade show d-none" role="alert">
-          <strong>Succès!</strong> Votre message a été bien envoyé, merci pour votre intérêt. <span id="success-object"></span>.
+          <strong>Succès!</strong> Votre message a été bien envoyé, merci pour votre intérêt <span id="success-object"></span>.
           <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
